@@ -1,0 +1,30 @@
+{
+  "name": "link",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "promisify": true
+  },
+  "properties": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "lastAccess": {
+      "type": "date"
+    },
+    "accessTimes": {
+      "type": "number",
+      "default": 0
+    },
+    "proxy": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

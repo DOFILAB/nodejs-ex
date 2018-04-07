@@ -1,0 +1,27 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "user": 1,
+    "link": 7
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "user": {},
+    "link": {
+      "1": "{\"url\":\"http://google.com\",\"accessTimes\":0,\"proxy\":false,\"id\":1}",
+      "2": "{\"url\":\"http://google.com\",\"accessTimes\":0,\"proxy\":false,\"id\":2}",
+      "3": "{\"url\":\"http://google.com\",\"accessTimes\":3,\"proxy\":false,\"id\":3,\"lastAccess\":\"2018-04-06T17:04:52.403Z\"}",
+      "4": "{\"url\":\"http://google.com\",\"accessTimes\":1,\"proxy\":false,\"id\":4,\"lastAccess\":\"2018-04-06T17:06:52.001Z\"}",
+      "5": "{\"url\":\"dofilab.com\",\"accessTimes\":1,\"proxy\":true,\"id\":5,\"lastAccess\":\"2018-04-06T17:41:54.455Z\"}",
+      "6": "{\"url\":\"https://d1u5p3l4wpay3k.cloudfront.net/minecraft_zh_gamepedia/2/27/Lava.png?version=9d27f9c3d16d17c92b9f30e61b75f6c9\",\"accessTimes\":5,\"proxy\":true,\"id\":6,\"lastAccess\":\"2018-04-06T17:46:37.530Z\"}"
+    }
+  }
+}

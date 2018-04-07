@@ -1,0 +1,21 @@
+{
+  "name": "user",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "promisify": true
+  },
+  "properties": {
+    "familyName": {
+      "type": "string"
+    },
+    "givenName": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
